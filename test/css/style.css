@@ -1,0 +1,56 @@
+.swiper-container {
+  width: 600px;
+  height: 200px;
+}
+
+.swiper-container .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-progress-bar {
+  width: 100%;
+  height: 2px;
+  position: relative;
+  margin: 20px auto;
+  background: #b8b7b7;
+}
+
+.swiper-progress-bar .progress {
+  height: inherit;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: #ffffff;
+  z-index: 1;
+}
+
+.swiper-progress-bar .progress-sections {
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+}
+
+.swiper-progress-bar .progress-sections span {
+  flex: 1;
+  height: inherit;
+  /* border-right: 2px solid #eee; */
+}
+
+.swiper-progress-bar .progress-sections span:last-child {
+  border-right-width: 0;
+}
+
+.swiper-counter {
+  width: 8%;
+  margin-left: 7%;
+  /* margin: 0 auto; */
+}
+
+/*# sourceMappingURL=style.css.map */

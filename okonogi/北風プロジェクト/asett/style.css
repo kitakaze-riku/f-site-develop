@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/*　navigation　*/
+
+/* Tb */
+
+@media screen and ( max-width: 1279px ){
+    .nav-wrapper li {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 14px;
+        letter-spacing: 1.4px;
+    }
+
+    .nav-wrapper li:last-child{
+      margin-bottom: 100px;
+    }
+
+    .nav-wrapper{
+        padding-top: 175px;
+    }
+    
+    body {
+      background: #87cc77;
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+      animation: bugfix infinite 1s;
+      -webkit-animation: bugfix infinite 1s;
+    }
+
+    @keyframes bugfix {
+      from {
+        padding: 0;
+      }
+
+      to {
+        padding: 0;
+      }
+    }
+
+    @-webkit-keyframes bugfix {
+      from {
+        padding: 0;
+      }
+
+      to {
+        padding: 0;
+      }
+    }
+
+    #overlay-button {
+      position: absolute;
+      right: 2.6%;
+      top: 3%;
+      padding: 26px 11px;
+      z-index: 5;
+      user-select: none;
+    }
+
+    #overlay-button span {
+      height: 4px;
+      width: 35px;
+      position: relative;
+      display: block;
+      transition: all .2s ease-in-out;
+    }
+
+    #overlay-button span:before {
+      visibility: visible;
+    }
+
+    #overlay-button span:after {
+      top: 10px;
+    }
+
+    #overlay-button span:before,
+    #overlay-button span:after {
+      height: 1px;
+      width: 25px;
+      border-radius: 2px;
+      background-color: gray;
+      position: absolute;
+      content: "";
+      transition: all .2s ease-in-out;
+    }
+
+    input[type=checkbox] {
+      display: none;
+    }
+
+    input[type=checkbox]:checked~#overlay {
+      visibility: visible;
+    }
+
+    input[type=checkbox]:checked~#overlay-button:hover span,
+    input[type=checkbox]:checked~#overlay-button span {
+      background: transparent;
+    }
+
+    input[type=checkbox]:checked~#overlay-button span:before {
+      transform: rotate(25deg) translate(3px, 0px);
+    }
+
+    input[type=checkbox]:checked~#overlay-button span:after {
+      transform: rotate(-25deg) translate(6px, -7px);
+    }
+
+    #overlay {
+      height: 100vh;
+      width: 100vw;
+      background: white;
+      opacity: 50%;
+      z-index: 2;
+      visibility: hidden;
+      position: fixed;
+    }
+
+    #overlay ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding-left: 0;
+      list-style-type: none;
+    }
+
+    #overlay ul li a {
+      color: gray;
+      text-decoration: none;
+      font-size: 14px;
+      cursor: default;
+    }
+  }
+
+
+/* Sp */
+
+@media screen and ( max-width: 767px ){
+  #overlay-button {
+    right: 2.3%;
+  }
+  }

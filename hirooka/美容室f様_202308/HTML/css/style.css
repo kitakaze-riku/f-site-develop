@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+.header-nav{
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  top: 61px;
+}
+
+.header-logo img {
+  position: absolute;
+  width: 32.22px;
+  height: 77.96px;
+  z-index: 11;
+  filter: invert(100%);
+  left: 3.125%;
+}
+
+.header-list {
+  position: absolute;
+  z-index: 10;
+  right: 3.177083333333333%;
+  color: #FFFF;
+}
+
+.header-list li {
+  margin-bottom: 12px;
+}
+
+.content {
+  position: relative;
+}
+
+.top-copy {
+  position: absolute;
+  z-index: 12;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 32.891660171473106%;
+}
+
+.top-copy img{
+  width: 293px;
+  height: 263px;
+}
+
+.tab-contents .swiper-slide img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  vertical-align:baseline;
+  }
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tab-menu.swiper {
+  width: 30%;
+  margin: 0;
+}
+
+.tab-menu .swiper-slide {
+  width: 30px;
+  height: 7px;
+  background-color: #939393;
+}
+
+.tab-menu .swiper-slide-thumb-active {
+  border: 1px solid #FFFF;
+  background: #FFFF;
+}
+
+.swiper-pagination {
+  color:#FFFF;
+  font-weight:500;
+  font-size:0.88rem;
+  text-align:center;
+  width:32%;
+  position:relative;
+  }
+
+  /* 現在のスライド番号 */
+.swiper-pagination-current {
+}
+
+/* スライド総数 */
+.swiper-pagination-total {
+}
+
+@keyframes zoomUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.15);
+  }
+}
+.swiper-slide-active .swiper-img,
+.swiper-slide-duplicate-active .swiper-img,
+.swiper-slide-prev .swiper-img {
+  animation: zoomUp 7s linear 0s normal both;
+}
+.swiper-slide img {
+  height: auto;
+  width: 100%;
+}

@@ -1,0 +1,123 @@
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+.main-content {
+  margin: 20px auto;
+  width: 49%;
+}
+
+ul.insta_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0px 7.4%;
+}
+
+ul.insta_list li {
+  list-style: none;
+  border-radius: 5px;
+  /* overflow: hidden; */
+  width: 19%;
+  height: 13.9%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.insta_list li:nth-child(even) {
+  margin-top: 5.6%;
+}
+
+.insta_list li:nth-child(odd) {
+  margin-top: -4%;
+}
+
+ul.insta_list li:nth-child(2),
+li:nth-child(4) {
+  margin-top: 12%;
+}
+
+ul.insta_list li:nth-child(1),
+li:nth-child(3) {
+  margin-top: 0;
+
+}
+
+ul.insta_list li a p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+
+ul.insta_list li a p span {
+  font-size: 120%;
+}
+
+.insta_contents,
+.insta_contents img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+/* .parent {
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.div4 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+.div5 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.div6 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.div7 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+.div8 {
+  grid-area: 4 / 4 / 5 / 5;
+}
+
+.div9 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+.div10 {
+  grid-area: 5 / 3 / 6 / 4;
+} */

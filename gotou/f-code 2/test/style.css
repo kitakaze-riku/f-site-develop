@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;500;700&display=swap');
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+body {
+  background-color: #000;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+input,
+button,
+span,
+strong {
+  font-family: Montserrat;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 88px;
+  color: #FFFFFF;
+  margin-bottom: 100px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 39px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.w100 {
+  width: 100%;
+}
+
+section {
+  min-height: 100vh;
+  position: relative;
+}
+
+#intro,
+#sec1 {
+  background: url(https://images.unsplash.com/photo-1597839219216-a773cb2473e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 150px;
+  position: relative;
+}
+
+#intro ul,
+ul.indus-category-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#intro ul li,
+ul.indus-category-list li {
+  list-style: none;
+}
+
+#intro ul li a,
+ul.indus-category-list li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding-right: 20px;
+  margin-right: 20px;
+  position: relative;
+  display: block;
+  min-width: 110px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#intro ul li:last-child a,
+ul.indus-category-list li:last-child a {
+  padding: 0;
+  margin: 0;
+}
+
+#intro ul li a:after,
+ul.indus-category-list li a:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(0.91deg, #946A2C -85.83%, #F3E997 117.97%, #9A5E26 298.71%);
+}
+
+#intro ul li:last-child a:after,
+ul.indus-category-list li:last-child a:after {
+  display: none;
+}
+
+a.gotosite {
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+}
+
+a.gotosite img {
+  margin: 0 0 0 10px !important;
+}
+
+a.gotosite img {
+  position: absolute;
+  right: 0;
+  transition: all.2s linear;
+}
+
+a.gotosite img:last-child {
+  right: -36px;
+  opacity: 0;
+}
+
+a.gotosite:hover {
+  color: #F3EA98;
+}
+
+a.gotosite:hover img:nth-child(1) {
+  opacity: 0;
+}
+
+a.gotosite:hover img:last-child {
+  opacity: 1;
+}
+
+/*  */
+#sec1 {
+  padding-bottom: 0;
+}
+
+/*  */
+.heading-bdr {
+  position: relative;
+}
+
+.heading-bdr:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 10px;
+  height: 22px;
+  background: linear-gradient(0.91deg, #946A2C -85.83%, #F3E997 117.97%, #9A5E26 298.71%);
+  opacity: 0.3;
+  bottom: 4px;
+}
+
+.theme-btn {
+  background: linear-gradient(0.91deg, #946A2C -85.83%, #F3E997 117.97%, #9A5E26 298.71%);
+  border-radius: 0;
+  font-weight: 600;
+  font-size: 23px;
+  color: #080808;
+  padding: 13px 50px;
+  display: inline-block;
+}
+
+/*  */
+#sec3 {
+  background-image: url('https://images.unsplash.com/photo-1597839219216-a773cb2473e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+#sec3:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #9F8732;
+  mix-blend-mode: color;
+  opacity: 0.6;
+}
+
+.page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal-container {
+  width: 300%;
+  overscroll-behavior: none;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+/*  */
+.sticky-sec {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sticky-sec .left-img {
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.sticky-sec .left-img img {
+  width: 100%;
+  height: 100vh;
+}
+
+.rt-cnt {
+  width: 50%;
+  padding: 2rem;
+  padding-top: 1000px;
+}
+
+.term-post-box img {
+  width: 100%;
+}

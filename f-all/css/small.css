@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+@media screen and (max-width: 500px) {
+  
+  .consept{
+    height: 720px;
+  }
+
+  .consept-textAria{
+    width: 55%;
+  }
+
+  /* consept横スクロール */
+
+  .consept-001{
+    margin: 70px auto;
+    width: 75%;
+  }
+
+.consept-flexImage{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.consept-contentTitle .no{
+  font-size: 0.625rem;
+  margin-bottom: 0px;
+}
+
+.consept-contentTitle .ja{
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.consept-Info p,
+.Info-text p{
+  font-size: 0.6875rem;
+  line-height: 1.8;
+  letter-spacing: 1.1px;
+}
+  /* consept-under */
+
+  .scroll-text{
+    width: 90%;
+    margin: 70px auto 70px 0;
+  }
+
+  .text02{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 130px;
+    gap: 0px 30px;
+  }
+
+  .consept-scrollImage{
+    height: 270px;
+  }
+
+  /* 003 */
+
+  .consept-003{
+    width: 70%;
+    margin: 70px auto;
+  }
+
+  .concept-grid{
+    display: grid;
+    grid-template-rows: 0.8fr 1fr;
+    grid-template-columns: 1fr 0.8fr;
+    gap: 10px;
+    height: 100%;
+  }
+
+  .text-03{
+    width: 60%;
+    margin: 30px auto 30px 0;
+  }
+
+  /* profile */
+
+  .profile-area{
+    position: relative;
+    margin-bottom: 400px;
+    color: #333333;
+  }
+
+  .profile-flex{
+    flex-direction: column;
+    position: absolute;
+    top: 60%;
+    left: 16%;
+  }
+
+  .profile-img{
+    width: 30%;
+  }
+
+  .profile-textArea{
+    width: 50%;
+  }
+
+  .profile-title .no{
+    margin-bottom: 5px;
+  }
+
+
+  .pc-profileText{
+    position: absolute;
+    bottom: -32%;
+    left: 35%;
+    transform: translateX(-50%);
+  }
+  
+  .pc-profileText p{
+    font-size: 0.625rem;
+  }
+
+  /* information */
+
+  .tb-infomationTitle{
+    margin: 120px auto 20px auto;
+  }
+
+  .information-menu{
+    background-size: cover;
+  }
+  .information-text p{
+    letter-spacing: 1.1px;
+    line-height: 18px;
+  }
+  .information-button{
+    margin-bottom: 130px;
+    padding: 20px 50px;
+  }
+
+  .information-button a{
+    font-size: 0.875rem;
+    letter-spacing: 1.4px;
+  }
+
+  .information-access dl dd{
+    line-height: 22px;
+  }
+
+  }

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <title>GSAP Horizontal Scroll Animation</title>
+  </head>
+
+  <body>
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <section id="intro">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="intro-txt">
+                  <h1>Placeholder heading <br> text</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="sec1">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="banner-txt">
+                  <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam,</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequatLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="sec2">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-12">
+                <div class="wpb_wrapper">
+                  <h2><span class="heading-bdr">Lorem ipsum dolor sit</span> amet<br>
+                    consectetut</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat</p>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-center pt-5">
+              <div class="col-md-6">
+                <img
+                  src="https://images.unsplash.com/photo-1680004661457-772c03735a30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                  class="img-fluid w100" alt="">
+              </div>
+              <div class="col-md-6">
+                <h3><span class="heading-bdr">Lorem ipsum dolor</span> sit amet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex
+                  ea commodo consequat</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex
+                  ea commodo consequatLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h3><span class="heading-bdr">This is just a </span>placeholder text</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua.</p>
+              </div>
+              <div class="col-md-6">
+                <img
+                  src="https://images.unsplash.com/photo-1680004661457-772c03735a30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                  class="img-fluid w100" alt="">
+              </div>
+            </div>
+            <div class="row align-items-center pb-5">
+              <div class="col-md-6">
+                <img
+                  src="https://images.unsplash.com/photo-1680004661457-772c03735a30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                  class="img-fluid w100" alt="">
+              </div>
+              <div class="col-md-6">
+                <h3><span class="heading-bdr">This is just a </span>placeholder text</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex
+                  ea commodo consequat</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <div class="horizontal-wrapper">
+          <div class="horizontal-container">
+            <section id="sec3" class="page">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, sunt consectetur voluptatibus
+                      at
+                      quidem totam sed iure, officia numquam distinctio voluptate tempora atque, laudantium earum
+                      maiores
+                      soluta, consequuntur velit. Voluptates?</h2>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="page" data-pin="true">
+              <div class="sticky-sec">
+                <div class="left-img">
+                  <img
+                    src="https://images.unsplash.com/photo-1680079527283-0ff93b782407?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=740&q=80"
+                    alt="">
+                </div>
+                <div class="rt-cnt">
+                  <div class="rt-cnt-inner scroll1">
+                    <div class="term-head">
+                      <h3>This is just a placeholder</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequatLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                      </p>
+                    </div>
+                    <div class="taxonomy-posts">
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim...</p>
+
+                      </div>
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim....</p>
+
+                      </div>
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim....</p>
+
+                      </div>
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim....</p>
+
+                      </div>
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim....</p>
+
+                      </div>
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim....</p>
+
+                      </div>
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim....</p>
+
+                      </div>
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim....</p>
+
+                      </div>
+                      <div class="last-post"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="page" data-pin="true">
+              <div class="sticky-sec">
+                <div class="left-img">
+                  <img
+                    src="https://images.unsplash.com/photo-1680079527283-0ff93b782407?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=740&q=80"
+                    alt="">
+                </div>
+                <div class="rt-cnt">
+                  <div class="rt-cnt-inner scroll2">
+                    <div class="term-head">
+                      <h3>This is just a placeholder</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequatLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                      </p>
+                    </div>
+                    <div class="taxonomy-posts">
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim...</p>
+
+                      </div>
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim....</p>
+
+                      </div>
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim....</p>
+
+                      </div>
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim....</p>
+
+                      </div>
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim....</p>
+
+                      </div>
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim....</p>
+
+                      </div>
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim....</p>
+
+                      </div>
+                      <div class="term-post-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1679678690998-e108fc25fb6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80">
+                        <h3>This is just a placeholder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim....</p>
+
+                      </div>
+                      <div class="last-post"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </div>
+        </div>
+
+
+        <section id="sec3">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed repellendus amet, unde sunt delectus
+                  quo
+                  rem, eaque eius ad ab consequuntur aperiam doloremque? Laboriosam laborum placeat quod fugit mollitia.
+                  Quisquam!</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+
+</html>

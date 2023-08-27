@@ -1,0 +1,370 @@
+@charset "utf-8";
+
+/* consept */
+
+body{
+  max-width: 1920px;
+  font-family: 'Noto Serif JP', serif;
+  color: #333;
+}
+
+
+
+.text-left{
+  text-align: left;
+}
+
+.consept-img{
+  position: relative;
+}
+
+.consept-img img{
+  width: 100%;
+  height: 100vh;
+}
+
+.consept-textAria{
+  position: absolute;
+  width: 25%;
+  color: #FFFFFF;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  text-align: center;
+}
+
+.textAria-title{
+  font-size: 0.625rem;
+  font-weight: normal;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.textAria-primary{
+  font-size: 1.875rem;
+  line-height: 44px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.textAria-secondary{
+  font-size: 0.75rem;
+  letter-spacing: 1.2px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+.textAria-quaternary{
+  font-size: 0.75rem;
+  line-height: 16px;
+  letter-spacing: 1.2px;
+}
+
+/* consept横スクロール */
+
+.consept-content{
+  overflow: hidden;
+}
+
+.consept-wrap{
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.scroll-item{
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+}
+
+.consept-001{
+  margin: 130px auto;
+  width: 100%;
+}
+
+.consept-flex{
+  width: 88%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.consept-flexImage{
+  width: 50%;
+}
+.consept-flexImage img{ 
+  width: 88%;
+}
+
+.consept-Info{
+  width: 50%;
+}
+
+.Info-text{
+  width: 50%;
+  margin: 0 auto;
+}
+.Info-text p{
+  font-size: 0.75rem;
+  letter-spacing: 1.2px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.consept-contentTitle span{
+  display: block;
+}
+
+.consept-contentTitle h2{
+  font-weight: normal;
+  color: #333;
+}
+
+.consept-contentTitle .no{
+  font-size: 0.75rem;
+  margin-bottom: 20px;
+}
+
+.consept-contentTitle .ja{
+  font-size: 2.1875rem;
+  margin-bottom: 20px;
+  letter-spacing: 3.5px;
+}
+
+.consept-Info p,
+.consept-underInfo p{
+  font-size: 0.75rem;
+  line-height: 2;
+}
+
+/* consept-under */
+
+.consept-underContent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.consept-scrollImage{
+  width: 50%;
+  object-fit: contain;
+}
+.consept-scrollImage img{ 
+  width: 100%;
+}
+
+
+.scroll-text{
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.consept-Image img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.consept002{
+  width: 100%;
+  align-items: center;
+  height: 100%;
+}
+
+
+/* under-content 003 */
+
+.consept-003{
+  width: 88%;
+  margin: 130px auto;
+}
+
+.concept-grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 0.5fr;
+  gap: 20px;
+}
+
+.gridItem{
+  object-fit: cover;
+}
+
+.gridItem:nth-child(1){
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+.gridItem:nth-child(2){
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.gridItem:nth-child(3){
+  grid-column: 2/3;
+  grid-row: 2/3;
+  height: 100%;
+}
+
+
+
+/* under-content profile */
+
+.profile-text{
+  width: 25%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.profile-img img{
+  margin-bottom: 10px;
+}
+
+.profile-title .no{
+  margin-bottom: 0px;
+  color: #333;
+}
+.profile-title .ja{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.pc-profileText{
+  position: absolute;
+  bottom: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.profile-textArea{
+  font-size: 0.75rem;
+  letter-spacing: 1.2px;
+  line-height: 22px;
+  color: #333333;
+}
+.pc-profileText p{
+  font-size: 0.75rem;
+  color: #707070;
+  letter-spacing: 1px;
+}
+
+.profile-area{
+  width: 100%;
+  align-items: center;
+}
+
+
+
+/* information */
+
+.information-flex{
+  display: flex;
+  align-items: center;
+}
+
+.information-menu{
+  width: 50%;
+  text-align: center;
+  background: url(../img/elena-joland-uKSdkD_WOxk-unsplash.jpg) center center no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.information-menu::before{
+  content: '';
+  /* ↓暗いオーバーレイを半透明で配置 */
+  background-color: rgba(0, 0, 0, 0.2);
+  /* ↓全体を覆うように配置 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.information-access{
+  width: 50%;
+  text-align: center;
+  background-color: #404040;
+  color: #FFFFFF;
+}
+
+.information-titileLeft{
+  margin: 210px auto 10px auto;
+}
+
+
+.information-titileLeft p{
+  font-size: 2.3125rem;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 30px;
+  margin-bottom: 15px;
+}
+
+.title-item:nth-child(1){
+  transform: translate(-3%,0);
+}
+.title-item:nth-child(2){
+  transform: translate(2%,0);
+}
+.title-item:nth-child(3){
+  transform: translate(3%,0);
+}
+.title-item:nth-child(4){
+  transform: translate(-4%,0);
+}
+.title-item:nth-child(5){
+  transform: translate(4%,0);
+}
+
+.tb-infomationTitle{
+  display: none;
+}
+
+.information-text{
+  margin: 20px auto 60px auto;
+}
+
+.information-text p{
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  transform: translate(0,0);
+}
+
+.information-button{
+  margin-bottom: 260px;
+  border: 1px solid #FFFFFF;
+  border-radius: 62px;
+  display: inline-block;
+  transform: translate(0,0);
+  padding: 40px 80px;
+}
+
+.information-button a{
+  text-decoration: none;
+  color: #FFFFFF;
+  letter-spacing: 2.5px;
+}
+
+.information-access dl{
+  margin: 258px auto 10px auto;
+}
+.information-access dl dt{
+  font-size: 2.1875rem;
+  letter-spacing: 3.5px;
+  margin-bottom: 10px;
+}
+.information-access dl dd{
+  font-size: 0.875rem;
+  letter-spacing: 2.8px;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}

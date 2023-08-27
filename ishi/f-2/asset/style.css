@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/*-----------------------------
+pc(~1920px)
+------------------------------*/
+.layout{
+    max-width: 1920PX;
+    background-color: #fff;
+    position: relative;
+    z-index: -2; 
+}
+
+
+.layout-wrapper{
+   padding: 18.6% 0 32.3%;
+} 
+
+
+.layout-media1:first-child{
+    top: 18.6%;  
+    left: 40.7%; 
+    width: 19.5%; 
+    position: relative;
+    z-index: -1; 
+}
+
+
+.layout-media2:nth-child(2){
+    top: 34.4%;
+    left: 27.3%;
+    width: 17.7%;  
+    position: absolute;
+}
+
+
+.layout-media3:nth-child(3){
+    top: 22.4%;
+    left: 56.8%; 
+    width: 14.2%; 
+    position: absolute;
+}
+
+.layout-media4:nth-child(4){
+    top: 62.6%;
+    left: 25.4%;
+    width: 17.7%;
+    position: absolute;
+}
+
+
+.layout-media5:last-child{
+    position: absolute;
+    top: 53.2%;
+    left: 56.8%;
+    width: 17.7%;
+}
+
+
+li img{
+    width: 100%;
+    height: 100%;
+    display: block;
+} 
+
+
+
+/*-----------------------------
+tb(768px~1279px)
+------------------------------*/
+  @media screen and (max-width:768px){
+
+
+    .layout{
+        max-width: 1279px;
+        /* max-height: 685px; */
+    }
+
+
+    .layout-wrapper{
+        padding: 17.5% 0 33.8%;
+
+    } 
+    
+    
+    .layout-media1:first-child{ 
+        left: 39.7%;
+        width: 21.7%;   
+    }
+    
+
+    .layout-media2:nth-child(2){
+        top: 33.1%;
+        left: 25%;
+        width: 19.6%;  
+    }
+
+
+    .layout-media3:nth-child(3){
+        top: 21.3%;
+        left: 57.4%; 
+        width: 15.8%; 
+    }
+
+
+    .layout-media4:nth-child(4){
+        top: 61.6%;
+        left: 22.7%;
+        width: 19.7%;
+    }
+
+
+    .layout-media5:last-child{
+        top: 51.8%;
+        left: 57.4%;
+        width: 19.7%;
+    }
+    
+
+
+
+} 
+
+
+
+/*-----------------------------
+sp(~767px)
+------------------------------*/
+ @media screen and (max-width:375px){
+
+    .layout{
+        max-width: 767px;
+        /* max-height: 482px; */
+    }
+
+
+    .layout-wrapper{
+        padding: 22.6% 0 34.6%;
+        
+    } 
+    
+    
+    .layout-media1:first-child{
+        left: 37%;
+        width: 27.4%;
+    }
+
+
+    .layout-media2:nth-child(2){
+        top: 36.3%;
+        left: 18.4%;
+        width: 25%;  
+    }
+
+
+    .layout-media3:nth-child(3){
+        top: 25.9%;
+        left: 59.4%; 
+        width: 20%; 
+    }
+
+
+    .layout-media4:nth-child(4){
+        top: 60.9%;
+        left: 15.4%;
+        width: 25%;
+    }
+
+
+    .layout-media5:last-child{
+        top: 52.9%;
+        left: 59.4%;
+        /* right: 40.5%; */
+        width: 25%;
+    }
+    
+
+
+    
+}  
